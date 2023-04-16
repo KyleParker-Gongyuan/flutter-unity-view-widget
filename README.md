@@ -512,7 +512,7 @@ class _UnityDemoScreenState extends State<UnityDemoScreen>{
             // Pop the category page if Android back button is pressed.
           },
           child: Container(
-            color: colorYellow,
+            color: Colors.yellow,
             child: UnityWidget(
               onUnityCreated: onUnityCreated,
             ),
